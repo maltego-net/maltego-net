@@ -1,0 +1,5 @@
+preview.html
+preview-*.png
+contact-sheet.png
+node_modules/
+.DS_Store
