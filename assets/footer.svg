@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="88" viewBox="0 0 1280 88" role="img" aria-label="Rostyslav Zhludko, Hamburg — Let's build something useful."><title>Rostyslav Zhludko, Hamburg — Let's build something useful.</title>
-<rect width="1280" height="88" rx="12" fill="#0C182A"/>
-<path d="M28 1H1252" stroke="#2A4669"/>
-<text x="32" y="39" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#B5CCE9">Let's build something useful.</text>
-<text x="32" y="62" font-family="Consolas, 'Courier New', monospace" font-size="10" letter-spacing="1.2" fill="#728EAF">ROSTYSLAV ZHLUDKO / HAMBURG</text>
-<g fill="#466A98"><circle cx="1164" cy="44" r="3"/><circle cx="1190" cy="44" r="3"/><circle cx="1216" cy="44" r="3"/><circle cx="1242" cy="44" r="3"/></g>
-<path d="M1164 44h78" stroke="#466A98" stroke-opacity=".5"/></svg>
+<rect width="1280" height="88" rx="12" fill="#101010"/>
+<path d="M28 1H1252" stroke="#333333"/>
+<text x="32" y="39" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#DDDDDD">Let's build something useful.</text>
+<text x="32" y="62" font-family="Consolas, 'Courier New', monospace" font-size="10" letter-spacing="1.2" fill="#999999">ROSTYSLAV ZHLUDKO / HAMBURG</text>
+<g fill="#666666"><circle cx="1164" cy="44" r="3"/><circle cx="1190" cy="44" r="3"/><circle cx="1216" cy="44" r="3"/><circle cx="1242" cy="44" r="3" fill="#7EE787"/></g>
+<path d="M1164 44h78" stroke="#666666" stroke-opacity=".5"/></svg>

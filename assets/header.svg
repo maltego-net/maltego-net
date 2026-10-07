@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-label="Rostyslav Zhludko — IT Operations, Infrastructure and Automation"><title>Rostyslav Zhludko — IT Operations, Infrastructure and Automation</title>
 <defs>
- <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#070D19"/><stop offset="1" stop-color="#122B4C"/></linearGradient>
- <radialGradient id="glow"><stop stop-color="#2D5689" stop-opacity=".35"/><stop offset="1" stop-color="#152E4D" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#557CAC" stroke-opacity=".10"/></pattern>
- <linearGradient id="edge"><stop stop-color="#547FB7"/><stop offset="1" stop-color="#547FB7" stop-opacity="0"/></linearGradient>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080808"/><stop offset="1" stop-color="#141414"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#555555" stop-opacity=".12"/><stop offset="1" stop-color="#171717" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#777777" stroke-opacity=".05"/></pattern>
+ <linearGradient id="edge"><stop stop-color="#777777"/><stop offset="1" stop-color="#777777" stop-opacity="0"/></linearGradient>
 </defs>
 <style>
  .flow{stroke-dasharray:5 13;animation:flow 9s linear infinite}
@@ -14,39 +14,39 @@
 <rect width="1280" height="440" rx="20" fill="url(#grid)"/>
 <ellipse cx="1030" cy="175" rx="350" ry="330" fill="url(#glow)"/>
 <path d="M40 1H1240" stroke="url(#edge)" stroke-opacity=".7"/>
-<g font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="2" fill="#91ABC9">
+<g font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="2" fill="#999999">
  <text x="60" y="51">MALTEGO-NET / ENGINEERING NOTES</text>
  <text x="1219" y="51" text-anchor="end">HAMBURG, DE</text>
 </g>
-<rect x="60" y="92" width="34" height="3" rx="1.5" fill="#86ACE0"/>
-<g font-family="Segoe UI, Arial, sans-serif" fill="#ECF2FA" font-size="70" font-weight="650" letter-spacing="-2">
- <text x="56" y="174">Rostyslav</text><text x="56" y="247">Zhludko<tspan fill="#709ACA">.</tspan></text>
+<rect x="60" y="92" width="34" height="3" rx="1.5" fill="#DDDDDD"/>
+<g font-family="Segoe UI, Arial, sans-serif" fill="#F4F4F4" font-size="70" font-weight="650" letter-spacing="-2">
+ <text x="56" y="174">Rostyslav</text><text x="56" y="247">Zhludko<tspan fill="#7EE787">_</tspan></text>
 </g>
-<text x="61" y="291" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#A8BCD5">IT Operations · Infrastructure · Automation</text>
-<text x="61" y="329" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#849DBD">Building the systems behind everyday work.</text>
-<path d="M60 365H1220" stroke="#2B4565" stroke-opacity=".8"/>
-<g font-family="Consolas, 'Courier New', monospace" font-size="11" letter-spacing="1.8" fill="#8DA7C7">
+<text x="61" y="291" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#BBBBBB">IT Operations · Infrastructure · Automation</text>
+<text x="61" y="329" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#999999">Building the systems behind everyday work.</text>
+<path d="M60 365H1220" stroke="#303030" stroke-opacity=".8"/>
+<g font-family="Consolas, 'Courier New', monospace" font-size="11" letter-spacing="1.8" fill="#999999">
  <text x="60" y="405">LINUX / CLOUD / SELF-HOSTED SYSTEMS</text>
  <text x="1220" y="405" text-anchor="end">CODE → DEPLOY → OPERATE</text>
 </g>
 <g transform="translate(762,102)">
- <rect x="0" y="0" width="458" height="228" rx="12" fill="#081425" fill-opacity=".55" stroke="#2C496D"/>
- <path d="M0 35H458" stroke="#2C496D"/>
- <circle cx="20" cy="18" r="3" fill="#506C8F"/><circle cx="34" cy="18" r="3" fill="#506C8F"/><circle cx="48" cy="18" r="3" fill="#7298C9"/>
- <text x="438" y="22" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="10" letter-spacing="1.5" fill="#809ABC">SYSTEM MAP / 01</text>
- <g stroke="#46658A" fill="none"><path d="M97 120H194M262 120H363"/><path d="M229 152V181H363V151"/></g>
- <g class="flow" stroke="#8FB6E8" fill="none"><path d="M97 120H194M262 120H363"/></g>
- <g stroke="#4D709B" fill="#10233D">
+ <rect x="0" y="0" width="458" height="228" rx="12" fill="#0A0A0A" fill-opacity=".55" stroke="#363636"/>
+ <path d="M0 35H458" stroke="#363636"/>
+ <circle cx="20" cy="18" r="3" fill="#555555"/><circle cx="34" cy="18" r="3" fill="#555555"/><circle cx="48" cy="18" r="3" fill="#888888"/>
+ <text x="438" y="22" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="10" letter-spacing="1.5" fill="#999999">SYSTEM MAP / 01</text>
+ <g stroke="#4A4A4A" fill="none"><path d="M97 120H194M262 120H363"/><path d="M229 152V181H363V151"/></g>
+ <g class="flow" stroke="#7EE787" fill="none"><path d="M97 120H194M262 120H363"/></g>
+ <g stroke="#555555" fill="#171717">
   <rect x="34" y="87" width="63" height="65" rx="10"/><rect x="195" y="87" width="68" height="65" rx="10"/><rect x="363" y="87" width="63" height="65" rx="10"/>
  </g>
- <g stroke="#ABC5E8" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+ <g stroke="#D4D4D4" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path d="m60 107-10 12 10 12m12-24 10 12-10 12"/>
   <rect x="215" y="103" width="28" height="13" rx="2"/><rect x="215" y="123" width="28" height="13" rx="2"/><path d="M220 109h2m-2 20h2"/>
   <path d="M383 110h23v20h-23zM388 105v5m13-5v5m-13 20v5m13-5v5m-23-20h5m-5 10h5m23-10h5m-5 10h5"/>
  </g>
- <g font-family="Consolas, 'Courier New', monospace" font-size="10" text-anchor="middle" fill="#9BB3D1" letter-spacing="1">
+ <g font-family="Consolas, 'Courier New', monospace" font-size="10" text-anchor="middle" fill="#AAAAAA" letter-spacing="1">
   <text x="65" y="178">BUILD</text><text x="229" y="73">DEPLOY</text><text x="394" y="178">OPERATE</text>
  </g>
- <circle cx="28" cy="208" r="3" fill="#81AADA"/>
- <text x="41" y="212" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#7F9DBF">hardware + software + people</text>
+ <circle cx="28" cy="208" r="3" fill="#7EE787"/>
+ <text x="41" y="212" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#999999">hardware + software + people</text>
 </g></svg>

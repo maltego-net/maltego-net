@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Rostyslav Zhludko — IT Operations, Infrastructure and Automation. Hamburg, Germany." />
+  <img src="assets/header.svg?v=mono-1" width="100%" alt="Rostyslav Zhludko — IT Operations, Infrastructure and Automation. Hamburg, Germany." />
 </p>
 
 <p align="center">
@@ -15,19 +15,19 @@ I build and operate the systems behind everyday work: deployment infrastructure,
 Based in **Hamburg**, I lead a technical operations team at **Notebook-Pro**. I co-built our network OS deployment platform using Proxmox and Windows Server with PXE/MDT, helping move device imaging from hands-on USB installs to unattended network deployment.
 
 <p>
-  <img src="assets/highlights.svg" width="100%" alt="Hands-on experience: leading a team of 3–4 technicians; 10,800+ wallet registrations on NEKO; PXE/MDT network OS deployment." />
+  <img src="assets/highlights.svg?v=mono-1" width="100%" alt="Hands-on experience: leading a team of 3–4 technicians; 10,800+ wallet registrations on NEKO; PXE/MDT network OS deployment." />
 </p>
 
 ## Selected work
 
 <table>
   <tr>
-    <td width="50%" valign="top"><a href="https://github.com/maltego-net/terraform-aws-mempoolio"><img src="assets/project-infrastructure.svg" width="100%" alt="AWS Infrastructure — Terraform configuration for VPC, EC2, security groups and S3." /></a></td>
-    <td width="50%" valign="top"><a href="https://github.com/maltego-net/neko"><img src="assets/project-neko.svg" width="100%" alt="NEKO — NFT community platform with Twitter OAuth, quests and wallet registration." /></a></td>
+    <td width="50%" valign="top"><a href="https://github.com/maltego-net/terraform-aws-mempoolio"><img src="assets/project-infrastructure.svg?v=mono-1" width="100%" alt="AWS Infrastructure — Terraform configuration for VPC, EC2, security groups and S3." /></a></td>
+    <td width="50%" valign="top"><a href="https://github.com/maltego-net/neko"><img src="assets/project-neko.svg?v=mono-1" width="100%" alt="NEKO — NFT community platform with Twitter OAuth, quests and wallet registration." /></a></td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><a href="https://github.com/maltego-net/mempoolio"><img src="assets/project-mempoolio.svg" width="100%" alt="Mempoolio — React and Express application with a meme generator, Docker and GitHub Actions." /></a></td>
-    <td width="50%" valign="top"><a href="https://github.com/maltego-net/k8s-neko"><img src="assets/project-kubernetes.svg" width="100%" alt="Kubernetes Lab — learning project exploring Kubernetes deployment for NEKO." /></a></td>
+    <td width="50%" valign="top"><a href="https://github.com/maltego-net/mempoolio"><img src="assets/project-mempoolio.svg?v=mono-1" width="100%" alt="Mempoolio — React and Express application with a meme generator, Docker and GitHub Actions." /></a></td>
+    <td width="50%" valign="top"><a href="https://github.com/maltego-net/k8s-neko"><img src="assets/project-kubernetes.svg?v=mono-1" width="100%" alt="Kubernetes Lab — learning project exploring Kubernetes deployment for NEKO." /></a></td>
   </tr>
 </table>
 
@@ -63,5 +63,5 @@ I also run a **multi-user Linux server** with Docker services, Nginx routing, SS
 <br />
 
 <p align="center">
-  <img src="assets/footer.svg" width="100%" alt="Rostyslav Zhludko · Hamburg · Let's build something useful." />
+  <img src="assets/footer.svg?v=mono-1" width="100%" alt="Rostyslav Zhludko · Hamburg · Let's build something useful." />
 </p>
