@@ -1,0 +1,171 @@
+{
+  "rendering": "GitHub Markdown API; local github-markdown-css approximation, not live GitHub UI",
+  "css_source": "https://raw.githubusercontent.com/sindresorhus/github-markdown-css/main/github-markdown.css",
+  "css_sha256": "6112686f954db5d3806fb96116d2ab20ad3018469ab1015c587fd8efe7d25cf4",
+  "checks": [
+    {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "images": [
+        {
+          "src": "assets/hermes-light.svg",
+          "selected": "hermes-light.gif",
+          "loaded": true,
+          "alt": "Hermes in three-quarter profile, with a winged headpiece, curls and marble shoulders rendered in dense monospaced characters.",
+          "width": 946,
+          "height": 441
+        }
+      ],
+      "headings": [
+        "Rostyslav Zhludko",
+        "About",
+        "Experience",
+        "Selected work",
+        "Toolkit",
+        "Currently building"
+      ],
+      "overflowing": [],
+      "theme": "light",
+      "size": "desktop",
+      "animationFrameChanged": true,
+      "expandedDetailsOverflow": false
+    },
+    {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "images": [
+        {
+          "selected": "hermes-light.svg",
+          "loaded": true
+        }
+      ],
+      "overflowing": [],
+      "theme": "light",
+      "size": "desktop",
+      "reducedMotion": true
+    },
+    {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "images": [
+        {
+          "src": "assets/hermes-light.svg",
+          "selected": "hermes-dark.gif",
+          "loaded": true,
+          "alt": "Hermes in three-quarter profile, with a winged headpiece, curls and marble shoulders rendered in dense monospaced characters.",
+          "width": 946,
+          "height": 441
+        }
+      ],
+      "headings": [
+        "Rostyslav Zhludko",
+        "About",
+        "Experience",
+        "Selected work",
+        "Toolkit",
+        "Currently building"
+      ],
+      "overflowing": [],
+      "theme": "dark",
+      "size": "desktop",
+      "animationFrameChanged": true,
+      "expandedDetailsOverflow": false
+    },
+    {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "images": [
+        {
+          "selected": "hermes-dark.svg",
+          "loaded": true
+        }
+      ],
+      "overflowing": [],
+      "theme": "dark",
+      "size": "desktop",
+      "reducedMotion": true
+    },
+    {
+      "viewport": 360,
+      "documentWidth": 360,
+      "images": [
+        {
+          "src": "assets/hermes-light.svg",
+          "selected": "hermes-light-mobile.gif",
+          "loaded": true,
+          "alt": "Hermes in three-quarter profile, with a winged headpiece, curls and marble shoulders rendered in dense monospaced characters.",
+          "width": 328,
+          "height": 306
+        }
+      ],
+      "headings": [
+        "Rostyslav Zhludko",
+        "About",
+        "Experience",
+        "Selected work",
+        "Toolkit",
+        "Currently building"
+      ],
+      "overflowing": [],
+      "theme": "light",
+      "size": "mobile",
+      "animationFrameChanged": true,
+      "expandedDetailsOverflow": false
+    },
+    {
+      "viewport": 360,
+      "documentWidth": 360,
+      "images": [
+        {
+          "selected": "hermes-light-mobile.svg",
+          "loaded": true
+        }
+      ],
+      "overflowing": [],
+      "theme": "light",
+      "size": "mobile",
+      "reducedMotion": true
+    },
+    {
+      "viewport": 360,
+      "documentWidth": 360,
+      "images": [
+        {
+          "src": "assets/hermes-light.svg",
+          "selected": "hermes-dark-mobile.gif",
+          "loaded": true,
+          "alt": "Hermes in three-quarter profile, with a winged headpiece, curls and marble shoulders rendered in dense monospaced characters.",
+          "width": 328,
+          "height": 306
+        }
+      ],
+      "headings": [
+        "Rostyslav Zhludko",
+        "About",
+        "Experience",
+        "Selected work",
+        "Toolkit",
+        "Currently building"
+      ],
+      "overflowing": [],
+      "theme": "dark",
+      "size": "mobile",
+      "animationFrameChanged": true,
+      "expandedDetailsOverflow": false
+    },
+    {
+      "viewport": 360,
+      "documentWidth": 360,
+      "images": [
+        {
+          "selected": "hermes-dark-mobile.svg",
+          "loaded": true
+        }
+      ],
+      "overflowing": [],
+      "theme": "dark",
+      "size": "mobile",
+      "reducedMotion": true
+    }
+  ]
+}
