@@ -3,3 +3,5 @@ preview-*.png
 contact-sheet.png
 node_modules/
 .DS_Store
+.preview-cache/
+__pycache__/

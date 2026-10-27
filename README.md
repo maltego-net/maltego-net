@@ -1,67 +1,70 @@
-<p align="center">
-  <img src="assets/header.svg?v=mono-1" width="100%" alt="Rostyslav Zhludko — IT Operations, Infrastructure and Automation. Hamburg, Germany." />
-</p>
+# Rostyslav Zhludko
 
-<p align="center">
-  <a href="https://github.com/maltego-net?tab=repositories">Explore my work</a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/rostickzlud/">LinkedIn</a>
-  &nbsp;&nbsp; / &nbsp;&nbsp;
-  <a href="mailto:rostyslav@zhludko.dev">Get in touch</a>
-</p>
+**Infrastructure / Systems / Automation**<br />Hamburg, Germany
 
-I build and operate the systems behind everyday work: deployment infrastructure, Linux servers, web applications, and tools that remove repetitive tasks.
+[Selected work](#selected-work) · [LinkedIn](https://www.linkedin.com/in/rostickzlud/) · [Get in touch](mailto:rostyslav@zhludko.dev)
 
-Based in **Hamburg**, I lead a technical operations team at **Notebook-Pro**. I co-built our network OS deployment platform using Proxmox and Windows Server with PXE/MDT, helping move device imaging from hands-on USB installs to unattended network deployment.
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hermes-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="assets/hermes-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hermes-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/hermes-light.svg" />
+  <img src="assets/hermes-light.svg" width="1200" alt="Hermes in three-quarter profile, with a winged headpiece, curls and marble shoulders rendered in dense monospaced characters." />
+</picture>
 
-<p>
-  <img src="assets/highlights.svg?v=mono-1" width="100%" alt="Hands-on experience: leading a team of 3–4 technicians; 10,800+ wallet registrations on NEKO; PXE/MDT network OS deployment." />
-</p>
+## About
+
+I build and operate deployment infrastructure, Linux servers, web applications, and tools that remove repetitive work. My interests meet where software has to run reliably on real hardware.
+
+## Experience
+
+I lead **3–4 technicians** at **Notebook-Pro** across daily planning, onboarding, hardware diagnostics, and process automation. I co-built our network OS deployment platform with **Proxmox, Windows Server, and PXE/MDT**, moving device imaging from hands-on USB installs to unattended network deployment.
+
+I also built a website for an early-stage rental startup and delivered a commercial **Next.js / Sanity** website for a client.
 
 ## Selected work
 
-<table>
-  <tr>
-    <td width="50%" valign="top"><a href="https://github.com/maltego-net/terraform-aws-mempoolio"><img src="assets/project-infrastructure.svg?v=mono-1" width="100%" alt="AWS Infrastructure — Terraform configuration for VPC, EC2, security groups and S3." /></a></td>
-    <td width="50%" valign="top"><a href="https://github.com/maltego-net/neko"><img src="assets/project-neko.svg?v=mono-1" width="100%" alt="NEKO — NFT community platform with Twitter OAuth, quests and wallet registration." /></a></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><a href="https://github.com/maltego-net/mempoolio"><img src="assets/project-mempoolio.svg?v=mono-1" width="100%" alt="Mempoolio — React and Express application with a meme generator, Docker and GitHub Actions." /></a></td>
-    <td width="50%" valign="top"><a href="https://github.com/maltego-net/k8s-neko"><img src="assets/project-kubernetes.svg?v=mono-1" width="100%" alt="Kubernetes Lab — learning project exploring Kubernetes deployment for NEKO." /></a></td>
-  </tr>
-</table>
+### `01` / [AWS infrastructure](https://github.com/maltego-net/terraform-aws-mempoolio)
 
-**Two connected builds:** Mempoolio is the application; `terraform-aws-mempoolio` defines its AWS infrastructure. NEKO is the community platform; `k8s-neko` is my Kubernetes learning project around it.
+Terraform configuration for VPC, EC2, security groups, and S3. The infrastructure counterpart to Mempoolio.
 
-## What I work with
+### `02` / [NEKO](https://github.com/maltego-net/neko)
 
-| Area | Tools and technologies |
-| :--- | :--- |
-| **Systems & infrastructure** | Linux · Proxmox VE · Windows Server · Active Directory · PXE/MDT · Nginx |
-| **Cloud & delivery** | AWS · Terraform · Docker · Docker Compose · GitHub Actions · GHCR |
-| **Automation & integration** | Python · Bash · TypeScript · Node.js · REST APIs · MCP |
-| **Applications & data** | React · Next.js · Fastify · PostgreSQL · SQLite · MongoDB · Redis |
+NFT community platform with Twitter OAuth, quests, and wallet registration. **10,800+ wallet registrations.**
+
+### `03` / [Mempoolio](https://github.com/maltego-net/mempoolio)
+
+React and Express application with a meme generator, Docker, and GitHub Actions.
+
+### `04` / [Kubernetes lab](https://github.com/maltego-net/k8s-neko)
+
+A learning project exploring Kubernetes deployment for NEKO.
+
+## Toolkit
+
+**Systems & infrastructure**<br />Linux · Proxmox VE · Windows Server · Active Directory · PXE/MDT · Nginx
+
+**Cloud & delivery**<br />AWS · Terraform · Docker · Docker Compose · GitHub Actions · GHCR · Kubernetes (learning)
+
+**Automation & integration**<br />Python · Bash · TypeScript · Node.js · REST APIs · MCP
+
+**Applications & data**<br />React · Next.js · Fastify · PostgreSQL · SQLite · MongoDB · Redis
 
 ## Currently building
 
-**Kityz** — a self-hosted platform for coordinating AI coding agents on my own machines. I'm working on a TypeScript/Fastify orchestrator, WebSocket runners, and MCP integration, with isolated execution and human approval for consequential actions. **In progress.**
+**Kityz — in progress.** A self-hosted platform for coordinating AI coding agents on my own machines. I'm working on a TypeScript/Fastify orchestrator, WebSocket runners, and MCP integration, with isolated execution and human approval for consequential actions.
 
-I also run a **multi-user Linux server** with Docker services, Nginx routing, SSH key access, firewall rules, and separate user environments. My interests connect at the point where software has to run reliably on real hardware.
+I also run a **multi-user Linux server** with Docker services, Nginx routing, SSH key access, firewall rules, and separate user environments.
 
 <details>
-<summary><strong>A little more about my background</strong></summary>
+<summary>Background & languages</summary>
 
-<br />
+University studies in cybersecurity, network design, Linux administration, and practical virtual-machine labs.
 
-- **Technical operations:** daily work planning, technician onboarding, hardware diagnostics, and process automation.
-- **Product development:** built the website for an early-stage rental startup and delivered a commercial Next.js / Sanity website for a client.
-- **Security foundations:** university studies in cybersecurity, network design, Linux administration, and practical virtual-machine labs.
-- **Languages:** English, German, Ukrainian, and Russian.
+English · German · Ukrainian · Russian
 
 </details>
 
-<br />
+---
 
-<p align="center">
-  <img src="assets/footer.svg?v=mono-1" width="100%" alt="Rostyslav Zhludko · Hamburg · Let's build something useful." />
-</p>
+[Explore my repositories](https://github.com/maltego-net?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/rostickzlud/) · [Email](mailto:rostyslav@zhludko.dev)
