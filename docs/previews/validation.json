@@ -9,7 +9,7 @@
       "images": [
         {
           "src": "assets/hermes-light.svg",
-          "selected": "hermes-light.svg",
+          "selected": "hermes-light.gif",
           "loaded": true,
           "alt": "Hermes in three-quarter profile, with a winged headpiece, curls and marble shoulders rendered in dense monospaced characters.",
           "width": 946,
@@ -21,16 +21,13 @@
         "About",
         "Experience",
         "Selected work",
-        "01 / AWS infrastructure",
-        "02 / NEKO",
-        "03 / Mempoolio",
-        "04 / Kubernetes lab",
         "Toolkit",
         "Currently building"
       ],
       "overflowing": [],
       "theme": "light",
       "size": "desktop",
+      "animationFrameChanged": true,
       "expandedDetailsOverflow": false
     },
     {
@@ -38,8 +35,22 @@
       "documentWidth": 1440,
       "images": [
         {
+          "selected": "hermes-light.svg",
+          "loaded": true
+        }
+      ],
+      "overflowing": [],
+      "theme": "light",
+      "size": "desktop",
+      "reducedMotion": true
+    },
+    {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "images": [
+        {
           "src": "assets/hermes-light.svg",
-          "selected": "hermes-dark.svg",
+          "selected": "hermes-dark.gif",
           "loaded": true,
           "alt": "Hermes in three-quarter profile, with a winged headpiece, curls and marble shoulders rendered in dense monospaced characters.",
           "width": 946,
@@ -51,17 +62,28 @@
         "About",
         "Experience",
         "Selected work",
-        "01 / AWS infrastructure",
-        "02 / NEKO",
-        "03 / Mempoolio",
-        "04 / Kubernetes lab",
         "Toolkit",
         "Currently building"
       ],
       "overflowing": [],
       "theme": "dark",
       "size": "desktop",
+      "animationFrameChanged": true,
       "expandedDetailsOverflow": false
+    },
+    {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "images": [
+        {
+          "selected": "hermes-dark.svg",
+          "loaded": true
+        }
+      ],
+      "overflowing": [],
+      "theme": "dark",
+      "size": "desktop",
+      "reducedMotion": true
     },
     {
       "viewport": 360,
@@ -69,7 +91,7 @@
       "images": [
         {
           "src": "assets/hermes-light.svg",
-          "selected": "hermes-light-mobile.svg",
+          "selected": "hermes-light-mobile.gif",
           "loaded": true,
           "alt": "Hermes in three-quarter profile, with a winged headpiece, curls and marble shoulders rendered in dense monospaced characters.",
           "width": 328,
@@ -81,16 +103,13 @@
         "About",
         "Experience",
         "Selected work",
-        "01 / AWS infrastructure",
-        "02 / NEKO",
-        "03 / Mempoolio",
-        "04 / Kubernetes lab",
         "Toolkit",
         "Currently building"
       ],
       "overflowing": [],
       "theme": "light",
       "size": "mobile",
+      "animationFrameChanged": true,
       "expandedDetailsOverflow": false
     },
     {
@@ -98,8 +117,22 @@
       "documentWidth": 360,
       "images": [
         {
+          "selected": "hermes-light-mobile.svg",
+          "loaded": true
+        }
+      ],
+      "overflowing": [],
+      "theme": "light",
+      "size": "mobile",
+      "reducedMotion": true
+    },
+    {
+      "viewport": 360,
+      "documentWidth": 360,
+      "images": [
+        {
           "src": "assets/hermes-light.svg",
-          "selected": "hermes-dark-mobile.svg",
+          "selected": "hermes-dark-mobile.gif",
           "loaded": true,
           "alt": "Hermes in three-quarter profile, with a winged headpiece, curls and marble shoulders rendered in dense monospaced characters.",
           "width": 328,
@@ -111,17 +144,28 @@
         "About",
         "Experience",
         "Selected work",
-        "01 / AWS infrastructure",
-        "02 / NEKO",
-        "03 / Mempoolio",
-        "04 / Kubernetes lab",
         "Toolkit",
         "Currently building"
       ],
       "overflowing": [],
       "theme": "dark",
       "size": "mobile",
+      "animationFrameChanged": true,
       "expandedDetailsOverflow": false
+    },
+    {
+      "viewport": 360,
+      "documentWidth": 360,
+      "images": [
+        {
+          "selected": "hermes-dark-mobile.svg",
+          "loaded": true
+        }
+      ],
+      "overflowing": [],
+      "theme": "dark",
+      "size": "mobile",
+      "reducedMotion": true
     }
   ]
 }

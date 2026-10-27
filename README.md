@@ -5,10 +5,14 @@
 [Selected work](#selected-work) · [LinkedIn](https://www.linkedin.com/in/rostickzlud/) · [Get in touch](mailto:rostyslav@zhludko.dev)
 
 <picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hermes-dark-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="assets/hermes-light-mobile.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hermes-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/hermes-light.svg" />
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hermes-dark-mobile.svg" />
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/hermes-light-mobile.svg" />
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/hermes-dark.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hermes-light.svg" />
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/hermes-dark-mobile.gif" />
+  <source media="(max-width: 600px)" srcset="assets/hermes-light-mobile.gif" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hermes-dark.gif" />
+  <source srcset="assets/hermes-light.gif" />
   <img src="assets/hermes-light.svg" width="1200" alt="Hermes in three-quarter profile, with a winged headpiece, curls and marble shoulders rendered in dense monospaced characters." />
 </picture>
 
@@ -24,21 +28,14 @@ I also built a website for an early-stage rental startup and delivered a commerc
 
 ## Selected work
 
-### `01` / [AWS infrastructure](https://github.com/maltego-net/terraform-aws-mempoolio)
-
-Terraform configuration for VPC, EC2, security groups, and S3. The infrastructure counterpart to Mempoolio.
-
-### `02` / [NEKO](https://github.com/maltego-net/neko)
-
-NFT community platform with Twitter OAuth, quests, and wallet registration. **10,800+ wallet registrations.**
-
-### `03` / [Mempoolio](https://github.com/maltego-net/mempoolio)
-
-React and Express application with a meme generator, Docker, and GitHub Actions.
-
-### `04` / [Kubernetes lab](https://github.com/maltego-net/k8s-neko)
-
-A learning project exploring Kubernetes deployment for NEKO.
+<table width="100%">
+  <tbody>
+    <tr><td width="100%"><strong>01 · Infrastructure — <a href="https://github.com/maltego-net/terraform-aws-mempoolio">AWS infrastructure</a></strong><br />Terraform for AWS VPC, EC2, security groups, and S3; infrastructure for Mempoolio.</td></tr>
+    <tr><td width="100%"><strong>02 · Community — <a href="https://github.com/maltego-net/neko">NEKO</a></strong><br />NFT platform with Twitter OAuth, quests, and wallet registration. <strong>10,800+ wallet registrations.</strong></td></tr>
+    <tr><td width="100%"><strong>03 · Application — <a href="https://github.com/maltego-net/mempoolio">Mempoolio</a></strong><br />React and Express app with a meme generator, Docker, and GitHub Actions.</td></tr>
+    <tr><td width="100%"><strong>04 · Learning lab — <a href="https://github.com/maltego-net/k8s-neko">Kubernetes lab</a></strong><br />A learning project exploring Kubernetes deployment for NEKO.</td></tr>
+  </tbody>
+</table>
 
 ## Toolkit
 

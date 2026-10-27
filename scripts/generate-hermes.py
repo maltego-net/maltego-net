@@ -15,7 +15,6 @@ def plate(dark: bool, mobile: bool = False) -> str:
     lum, alpha = image.split()
     lum = ImageEnhance.Contrast(ImageOps.autocontrast(lum, cutoff=1)).enhance(1.20)
     bg = "#111319" if dark else "#E6E8E0"
-    ink = "#E6E8E0" if dark else "#10264A"
     muted = "#8C9DC6" if dark else "#1936C8"
     colors = ["#536B9B", "#9DAFD0", "#E6E8E0"] if dark else ["#1936C8", "#1936C8", "#10264A"]
     mode = "Obsidian impression" if dark else "Marble impression"
@@ -29,7 +28,6 @@ def plate(dark: bool, mobile: bool = False) -> str:
            f'<g fill="{muted}" font-family="Courier New,monospace" font-size="13" letter-spacing="2">',
            '<text x="58" y="88">STUDY / 01</text>',
            '<text x="58" y="478">FORM THROUGH CHARACTERS</text></g>',
-           f'<text x="55" y="270" fill="{ink}" font-family="Georgia,serif" font-size="70" letter-spacing="3">Hermes</text>',
            f'<path d="M58 305H460" fill="none" stroke="{muted}" stroke-width=".6"/>']
     out += [f'<g font-family="Courier New,monospace" font-size="{W/COLS/0.6:.4f}" font-weight="700">']
     for row in range(ROWS):

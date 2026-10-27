@@ -60,11 +60,28 @@ try:
                     overflowing:[...document.querySelectorAll('.markdown-body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+1).map(e=>e.tagName)
                 })''')
                 record.update(theme=theme, size=label)
+                image = page.locator(".markdown-body img").first
+                if record["images"] and record["images"][0]["selected"].endswith(".gif"):
+                    first_frame = hashlib.sha256(image.screenshot()).hexdigest()
+                    page.wait_for_timeout(650)
+                    next_frame = hashlib.sha256(image.screenshot()).hexdigest()
+                    record["animationFrameChanged"] = first_frame != next_frame
                 page.screenshot(path=str(OUT / f"{label}-{theme}.png"), full_page=True)
                 page.locator("details").evaluate_all("items => items.forEach(e => e.open = true)")
                 record["expandedDetailsOverflow"] = page.evaluate("document.documentElement.scrollWidth > innerWidth")
                 records.append(record)
                 page.close()
+                still = browser.new_page(viewport={"width": width, "height": 1050}, color_scheme=theme,
+                                         reduced_motion="reduce", device_scale_factor=1)
+                still.goto(f"http://127.0.0.1:{server.server_port}/preview.html", wait_until="networkidle")
+                still_record = still.evaluate('''() => ({
+                    viewport:innerWidth, documentWidth:document.documentElement.scrollWidth,
+                    images:[...document.images].map(i=>({selected:i.currentSrc.split('/').pop(),loaded:i.complete&&i.naturalWidth>0})),
+                    overflowing:[...document.querySelectorAll('.markdown-body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+1).map(e=>e.tagName)
+                })''')
+                still_record.update(theme=theme, size=label, reducedMotion=True)
+                records.append(still_record)
+                still.close()
         browser.close()
 finally:
     server.shutdown()
@@ -76,4 +93,6 @@ assert all(r["documentWidth"] == r["viewport"] and not r["overflowing"] for r in
 assert all(i["loaded"] for r in records for i in r["images"]), "Broken asset"
 assert all(r["theme"] in r["images"][0]["selected"] for r in records), "Incorrect theme source"
 assert all(("mobile" in r["images"][0]["selected"]) == (r["size"] == "mobile") for r in records), "Incorrect responsive source"
-assert not any(r["expandedDetailsOverflow"] for r in records), "Expanded details overflow"
+assert not any(r["expandedDetailsOverflow"] for r in records if not r.get("reducedMotion")), "Expanded details overflow"
+assert all(r["animationFrameChanged"] for r in records if not r.get("reducedMotion")), "Animated GIF did not change frames"
+assert all(r["images"][0]["selected"].endswith(".svg") for r in records if r.get("reducedMotion")), "Reduced motion did not select static SVG"

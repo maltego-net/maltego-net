@@ -32,7 +32,7 @@ Use marble ivory `#E6E8E0` for the ground, ultramarine `#1936C8` for dominant en
 
 A more central and tightly cropped Hermes portrait, approximately 1200 × 560, with a clear winged headpiece silhouette and the face emerging from a near-black field. Dense engraved highlights trace the forehead, nose bridge and upper shoulder. Aegean blue carries broad middle tones; ivory is reserved for lit planes. Outer curls and shoulder edges partly merge into the ground. The texture should resemble ink or cut marks, never a luminous screen.
 
-Use obsidian `#111319` as the ground, `#10264A` for low-contrast depth, restrained ultramarine for middle-tone marks, and `#E6E8E0` for selected high points. A muted blue such as `#8C9DC6` may bridge the middle values. No glow, scan lines or animation.
+Use obsidian `#111319` as the ground, `#10264A` for low-contrast depth, restrained ultramarine for middle-tone marks, and `#E6E8E0` for selected high points. A muted blue such as `#8C9DC6` may bridge the middle values. No glow or scan lines. Following user feedback, the final implementation adds a subtle feather inking loop as GIF because GitHub's SVG viewer does not support animation.
 
 **Rationale:** closer to the second and fourth references' dramatic silhouette. It is compelling in dark mode but less suitable as the only profile appearance because dark fields can overwhelm otherwise restrained content.
 
@@ -52,10 +52,10 @@ Use A's spacious composition in both modes for continuity, with B's independentl
 
 ## README hierarchy and typography
 
-- **Identity:** actual Markdown `# Rostyslav Zhludko`, followed by `Infrastructure / Systems / Automation` and Hamburg. Place the hero close to the name, while keeping the name visible early on mobile. Use one `<picture>` with dark/light SVG sources and a normal light fallback image. Suggested alt text: “Hermes in three-quarter profile, rendered as a dense typographic engraving with a winged headpiece.” Adjust to the actual art.
+- **Identity:** actual Markdown `# Rostyslav Zhludko`, followed by `Infrastructure / Systems / Automation` and Hamburg. Keep the name visible early on mobile. Use `<picture>` with light/dark, desktop/mobile art; select static SVG if reduced motion is preferred, with a static light fallback. Keep the illustration free of redundant label text.
 - **About:** two short sentences about operating deployment infrastructure, Linux systems, applications and automation. Do not add a mythology metaphor to every section.
 - **Experience:** compact prose covering Notebook-Pro, leadership, PXE/MDT and Proxmox, followed by existing practical delivery/background facts. Existing metrics can be preserved only with their existing scope; do not upgrade a registration count into active users or production reach.
-- **Selected work:** four stacked entries with real linked repository names and short descriptions. A small inline monospace index is optional. No two-column image cards, logo wall or fixed-width table. State the application/infrastructure relationships and identify `k8s-neko` as a learning project.
+- **Selected work:** four linked editorial cards with short actual Markdown descriptions, stacked vertically so each remains legible at a 360px viewport. Avoid a logo wall or unsupported production claims. State the application/infrastructure relationship and identify `k8s-neko` as a learning project.
 - **Toolkit:** four compact labeled paragraphs, using the existing domains and technologies. This wraps better than a wide table at 360px.
 - **Currently building:** Kityz explicitly marked “In progress”; retain the actual TypeScript/Fastify, WebSocket, MCP, isolated execution and human approval scope. Preserve the Linux server work without inventing availability claims.
 - **Footer:** LinkedIn, email and repository navigation as text links, with at most one small classical rule. Languages/background may remain in semantic `<details>` if necessary.

@@ -7,10 +7,12 @@
 - `assets/hermes-light-mobile.svg` and `assets/hermes-dark-mobile.svg` — closer portrait-only framing below 600px, generated from the same character field. The mobile assets omit the decorative captions so the face remains legible at a 360px viewport.
 - `assets/source/hermes.png` — original generated sculptural study, 768 × 768 grayscale plus alpha, 268,867 bytes. This is a generation input only, not embedded inside the SVG.
 - `scripts/generate-hermes.py` — deterministic conversion, Python and Pillow only.
+- `assets/hermes-light.gif`, `assets/hermes-dark.gif`, and mobile GIF counterparts — subtle feather inking loop for GitHub, which does not animate SVGs. Users who prefer reduced motion receive the static plates.
+- `scripts/generate-motion.py` — renders frames from the static vector plates with local Chrome and encodes looping GIFs with ffmpeg. This affects generated assets only; the profile has no scripts or runtime services.
 
 The illustration is built from actual monospaced characters, not a photograph wrapped in SVG. Each impression uses a 224 × 140 sampling grid and the density vocabulary `.,:;i1tfLCG08@`. The broad planes retain the sculpture's lighting; the marks resolve curls, eyes, feathers, cheek and neck. SVG text rows use local `Courier New, monospace` with explicit per-character x positions, requiring no downloadable fonts. Character shape can vary slightly with the viewer's installed fallback font. Explicit positions avoid the whitespace collapse that distorted the first preview; no SVG `textLength` stretching is used.
 
-The README's identity, experience, project descriptions, toolkit and links remain native text. The plate's “Hermes” and specimen captions are decorative. SVGs contain their own title and description, and the README image has meaningful alternative text.
+The README's identity, experience, project descriptions, toolkit and links remain native text. SVGs contain their own title and description, and the README image has meaningful alternative text. The redundant “Hermes” title has been removed from the plate; the bust and winged cap carry the image.
 
 ## Provenance
 
@@ -30,12 +32,13 @@ The generated PNG was converted to grayscale with its alpha channel retained and
 
 ## Reproduction
 
-With Python and Pillow installed, run from the repository root:
+With Python, Pillow, Playwright, Chrome, and ffmpeg installed, run from the repository root:
 
 ```sh
 python scripts/generate-hermes.py
+python scripts/generate-motion.py
 ```
 
-Created with Python 3.14.5 and Pillow 12.2.0. There are no runtime dependencies for viewing the README. The converter resamples luminance and alpha, applies autocontrast and a controlled contrast curve, and groups rows by three ink tones. Light mode translates shadow into glyph density; dark mode translates illuminated stone into glyph density with a different gamma. This preserves the direction of light instead of simply inverting colors.
+Created with Python 3.14.5 and Pillow 12.2.0. There are no runtime dependencies for viewing the README. The converter resamples luminance and alpha, applies autocontrast and a controlled contrast curve, and groups rows by three ink tones. Light mode translates shadow into glyph density; dark mode translates illuminated stone into glyph density with a different gamma. This preserves the direction of light instead of simply inverting colors. The animated frames briefly ink three feather shafts, then return to the unmarked plate. `<picture>` selects static SVG for `prefers-reduced-motion: reduce` and animated GIF otherwise.
 
-Desktop SVGs use a 1200 × 560 viewBox; mobile SVGs use a 600 × 560 portrait crop. Each corrected output is approximately 116–117 KB (light) or 145 KB (dark), below the design target of 500 KB. They contain no external images, scripts, animation, gradients, web fonts or external service calls. Only the source PNG and the short converter are needed to edit the artwork; preview tooling is separate and is not consumed by GitHub.
+Desktop SVGs use a 1200 × 560 viewBox; mobile SVGs use a 600 × 560 portrait crop. SVG plates are 116–145 KB; the four optimized GIF loops are 45–58 KB each. SVGs have no external images, scripts, gradients, web fonts or external service calls. The animation source is reproducible; it depends on local development tools, not README runtime code.
